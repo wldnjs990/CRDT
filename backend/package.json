@@ -1,0 +1,22 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Yjs CRDT WebSocket Server",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "start:pure": "node server-pure.js",
+    "dev:pure": "node --watch server-pure.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.6.3",
+  "dependencies": {
+    "ws": "^8.19.0",
+    "y-websocket": "^3.0.0",
+    "yjs": "^13.6.29"
+  }
+}
